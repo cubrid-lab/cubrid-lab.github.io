@@ -1,0 +1,57 @@
+site_name: CUBRID Lab
+site_url: https://cubrid-lab.github.io/
+site_description: >-
+  Open-source client ecosystem for CUBRID — mature Python packages
+  (pycubrid, sqlalchemy-cubrid, cookbook, MCP server) plus Rust, Go, and
+  TypeScript drivers in active development.
+repo_url: https://github.com/cubrid-lab/cubrid-lab.github.io
+repo_name: cubrid-lab/cubrid-lab.github.io
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: index.md
+  - Packages: packages.md
+  - Get Started: get-started.md
+  - Articles:
+      - articles/index.md
+      - "CUBRID Python Ecosystem: 6-Year Journey":
+          - English Summary: articles/cubrid-python-ecosystem-6-year-journey/index.md
+          - "한국어 원문": articles/cubrid-python-ecosystem-6-year-journey/ko.md
+  - Roadmap: roadmap.md
+  - Community: community.md
+  - About: about.md
