@@ -1,0 +1,118 @@
+/* CUBRID Lab — landing site custom styles */
+
+/* ---- Hero ---- */
+.md-typeset .cubrid-hero {
+  border-radius: 0.5rem;
+  padding: 3rem 1.5rem 2.4rem;
+  text-align: center;
+  background:
+    radial-gradient(ellipse at 20% 0%, rgba(255, 167, 38, 0.35), transparent 55%),
+    linear-gradient(135deg, #bf360c 0%, #e64a19 55%, #ff7043 100%);
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.md-typeset .cubrid-hero h1 {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+  letter-spacing: -0.02em;
+}
+
+.md-typeset .cubrid-hero .cubrid-tagline {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.88);
+  max-width: 44rem;
+  margin: 0 auto 1.5rem;
+}
+
+.md-typeset .cubrid-hero-actions a {
+  display: inline-block;
+  margin: 0 0.35rem 0.5rem;
+  padding: 0.6rem 1.4rem;
+  border-radius: 0.4rem;
+  font-weight: 600;
+  font-size: 0.85rem;
+  background: #fff;
+  color: #bf360c;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.md-typeset .cubrid-hero-actions a:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.28);
+}
+
+.md-typeset .cubrid-hero-actions a.cubrid-secondary {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  color: #fff;
+  box-shadow: none;
+}
+
+/* ---- Stats band ---- */
+.md-typeset .cubrid-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem 2.2rem;
+  justify-content: center;
+  margin: 2.2rem 0;
+  padding: 1.4rem 1rem;
+  border-radius: 0.5rem;
+  background: var(--md-code-bg-color, rgba(0, 0, 0, 0.04));
+}
+
+.md-typeset .cubrid-stat {
+  text-align: center;
+  min-width: 7.5rem;
+}
+
+.md-typeset .cubrid-stat strong {
+  display: block;
+  font-size: 1.65rem;
+  line-height: 1.15;
+  color: #e64a19;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .cubrid-stat strong {
+  color: #ff8a65;
+}
+
+.md-typeset .cubrid-stat span {
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.65;
+}
+
+/* ---- Card grid polish ---- */
+.md-typeset .grid.cards > :is(ul, ol) > li,
+.md-typeset .grid > .card {
+  border: 1px solid var(--md-default-fg-color, rgba(0, 0, 0, 0.12));
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.md-typeset .grid.cards > :is(ul, ol) > li:hover,
+.md-typeset .grid > .card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
+  border-color: #e64a19;
+}
+
+/* Card icon accent */
+.md-typeset .grid.cards :is(h2, h3) .twemoji,
+.md-typeset .grid.cards > :is(ul, ol) > li > p .twemoji {
+  color: #e64a19;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > :is(ul, ol) > li:hover,
+[data-md-color-scheme="slate"] .md-typeset .grid > .card:hover {
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.5);
+}
+
+/* ---- Compact section anchors ---- */
+.md-typeset h2 {
+  font-weight: 700;
+}

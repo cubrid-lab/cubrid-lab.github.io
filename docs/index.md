@@ -1,41 +1,117 @@
-# CUBRID Lab
+<div class="cubrid-hero" markdown>
 
-**Open-source client ecosystem for CUBRID** — mature Python packages published
-on PyPI, with Rust, Go, and TypeScript clients in active development.
+# :material-database-search: CUBRID Lab
 
-CUBRID is an Apache-2.0 licensed open-source RDBMS used across a large
-share of Korean public-sector systems (industry surveys place it around
-10% of public-sector DBMS instances). Yet for years its client tooling
-lagged: the official Python driver's last release dates back to 2014.
-CUBRID Lab rebuilds that tooling as a modern, tested, documented ecosystem.
+<p class="cubrid-tagline" markdown>
+**Open-source client ecosystem for CUBRID** — mature Python packages on PyPI,
+with Rust, Go, and TypeScript clients in active development.
+CUBRID runs a large share of Korean public-sector systems, yet its official
+Python driver died in 2014. We rebuilt the entire stack.
+</p>
 
-## Documentation hub — start with the Python stack
+<div class="cubrid-hero-actions" markdown>
+[Explore the docs](documentation.md){ .cubrid-btn }
+[Get started — 30 seconds](get-started.md){ .cubrid-btn .cubrid-secondary }
+[GitHub org](https://github.com/cubrid-lab){ .cubrid-btn .cubrid-secondary }
+</div>
 
-| Documentation | Contents |
-|---|---|
-| [**pycubrid** — DB-API 2.0 driver](https://cubrid-lab.github.io/pycubrid/) | Connections, type mapping, wire protocol, API reference |
-| [**sqlalchemy-cubrid** — SQLAlchemy 2.0 dialect](https://cubrid-lab.github.io/sqlalchemy-cubrid/) | Reflection, MERGE, ENUM, Alembic migrations |
-| [**cubrid-cookbook-python** — examples & templates](https://cubrid-lab.github.io/cubrid-cookbook-python/) | 75 runnable examples, 7 production templates |
-| [**cubrid-mcp-server** — AI agent access](https://cubrid-lab.github.io/cubrid-mcp-server/) | 12 MCP tools, safety whitelist, domain knowledge packs |
+</div>
 
 ## The Python ecosystem — stable and on PyPI
 
-| Package | What it is | Docs | Install |
-|---|---|---|---|
-| [pycubrid](https://github.com/cubrid-lab/pycubrid) | Pure-Python DB-API 2.0 driver (no C extensions, zero dependencies) | [docs](https://cubrid-lab.github.io/pycubrid/) | `pip install pycubrid` |
-| [sqlalchemy-cubrid](https://github.com/cubrid-lab/sqlalchemy-cubrid) | SQLAlchemy 2.0 dialect — reflection, MERGE, native ENUM, Alembic | [docs](https://cubrid-lab.github.io/sqlalchemy-cubrid/) | `pip install sqlalchemy-cubrid` |
-| [cubrid-cookbook-python](https://github.com/cubrid-lab/cubrid-cookbook-python) | 75 runnable examples + 7 production templates, verified nightly on live servers | [docs](https://cubrid-lab.github.io/cubrid-cookbook-python/) | `git clone` |
-| [cubrid-mcp-server](https://github.com/cubrid-lab/cubrid-mcp-server) | The first publicly available CUBRID MCP server — read-only safety whitelist, domain knowledge packs | [docs](https://cubrid-lab.github.io/cubrid-mcp-server/) | `uvx cubrid-mcp-server` |
+<div class="grid cards" markdown>
+
+-   :material-database:{ .lg .middle } **pycubrid**
+
+    ---
+
+    Pure-Python DB-API 2.0 driver speaking the CAS wire protocol.
+    No C extensions, no compiler, zero dependencies.
+
+    [:octicons-arrow-right-24: Documentation](https://cubrid-lab.github.io/pycubrid/)
+    · [:octicons-mark-github-16:](https://github.com/cubrid-lab/pycubrid)
+    · `pip install pycubrid`
+
+-   :material-layers-triple:{ .lg .middle } **sqlalchemy-cubrid**
+
+    ---
+
+    SQLAlchemy 2.0 dialect — schema reflection, `MERGE`, native `ENUM`,
+    Alembic migrations. Official SA test suite integrated.
+
+    [:octicons-arrow-right-24: Documentation](https://cubrid-lab.github.io/sqlalchemy-cubrid/)
+    · [:octicons-mark-github-16:](https://github.com/cubrid-lab/sqlalchemy-cubrid)
+    · `pip install sqlalchemy-cubrid`
+
+-   :material-book-open-variant:{ .lg .middle } **cubrid-cookbook-python**
+
+    ---
+
+    75 runnable examples + 7 production templates (FastAPI, Django,
+    Streamlit, Celery, AI agent). 45 examples verified nightly on live servers.
+
+    [:octicons-arrow-right-24: Documentation](https://cubrid-lab.github.io/cubrid-cookbook-python/)
+    · [:octicons-mark-github-16:](https://github.com/cubrid-lab/cubrid-cookbook-python)
+
+-   :material-robot:{ .lg .middle } **cubrid-mcp-server**
+
+    ---
+
+    The first publicly available CUBRID MCP server. 12 tools behind a
+    read-only safety whitelist, with LLM domain-knowledge packs.
+
+    [:octicons-arrow-right-24: Documentation](https://cubrid-lab.github.io/cubrid-mcp-server/)
+    · [:octicons-mark-github-16:](https://github.com/cubrid-lab/cubrid-mcp-server)
+    · `uvx cubrid-mcp-server`
+
+</div>
 
 ## Why you can trust it
 
-Every change passes an automated quality gate before merge:
+<div class="cubrid-stats" markdown>
 
-- **2,200 tests** across the ecosystem, including the official SQLAlchemy test suite
-- **CI on live databases**: Python 3.10–3.14 × CUBRID 10.2/11.0/11.2/11.4 — 20 combinations
-- **95% coverage floor** (CI-enforced), `mypy --strict` with 0 errors
-- **450 merged PRs** and **35 PyPI releases** shipped through this process
-- **MIT licensed**, SPDX SBOM attached to every GitHub Release
+<div class="cubrid-stat" markdown>
+**2,200**
+
+<span>tests</span>
+</div>
+
+<div class="cubrid-stat" markdown>
+**20**
+
+<span>live CI combinations</span>
+</div>
+
+<div class="cubrid-stat" markdown>
+**95%**
+
+<span>coverage floor</span>
+</div>
+
+<div class="cubrid-stat" markdown>
+**450**
+
+<span>merged PRs</span>
+</div>
+
+<div class="cubrid-stat" markdown>
+**35**
+
+<span>PyPI releases</span>
+</div>
+
+<div class="cubrid-stat" markdown>
+**MIT**
+
+<span>licensed + SBOM</span>
+</div>
+
+</div>
+
+Every change passes an automated quality gate before merge — `mypy --strict`
+at zero errors, property-based testing, API-compatibility baselines, nightly
+golden runs, and CI on live databases across
+Python 3.10–3.14 × CUBRID 10.2–11.4.
 
 ## Get started in 30 seconds
 
@@ -65,7 +141,3 @@ More paths — SQLAlchemy, cookbook examples, MCP — on the
 
 See [Packages](packages.md) for the full catalog and [Roadmap](roadmap.md)
 for the maturity matrix.
-
-## Next steps
-
-→ [Documentation](documentation.md) · [Get Started](get-started.md) · [Roadmap](roadmap.md)
