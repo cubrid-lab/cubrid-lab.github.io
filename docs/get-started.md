@@ -38,7 +38,7 @@ pip install sqlalchemy-cubrid
 from sqlalchemy import create_engine, text
 
 engine = create_engine(
-    "cubrid+cubrid://dba:@localhost:33000/testdb",
+    "cubrid+pycubrid://dba:@localhost:33000/testdb",
     pool_pre_ping=True,  # +588% throughput under connection churn
 )
 
