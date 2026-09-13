@@ -46,6 +46,17 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Packages: packages.md
+  - Documentation:
+      - Overview: documentation.md
+      - Python:
+          - pycubrid: https://cubrid-lab.github.io/pycubrid/
+          - sqlalchemy-cubrid: https://cubrid-lab.github.io/sqlalchemy-cubrid/
+          - cubrid-cookbook-python: https://cubrid-lab.github.io/cubrid-cookbook-python/
+          - cubrid-mcp-server: https://cubrid-lab.github.io/cubrid-mcp-server/
+      - In progress:
+          - Rust packages: https://cubrid-lab.github.io/packages/#rust-in-progress
+          - Go packages: https://cubrid-lab.github.io/packages/#go-in-progress
+          - TypeScript packages: https://cubrid-lab.github.io/packages/#typescript-in-progress
   - Get Started: get-started.md
   - Roadmap: roadmap.md
   - Community: community.md

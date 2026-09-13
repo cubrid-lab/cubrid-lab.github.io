@@ -12,7 +12,7 @@ organization.
 
 | Path | Purpose |
 |---|---|
-| `docs/` | MkDocs Material source (Home, Packages, Get Started, Roadmap, Community, About) |
+| `docs/` | MkDocs Material source (Home, Packages, Documentation hub, Get Started, Roadmap, Community, About) |
 | `mkdocs.yml` | Site configuration and navigation |
 | `.github/workflows/docs.yml` | GitHub Pages build & deploy (same pattern as all cubrid-lab repos) |
 

@@ -10,7 +10,7 @@
 
 | 경로 | 용도 |
 |---|---|
-| `docs/` | MkDocs Material 소스 (홈, 패키지, 시작하기, 로드맵, 커뮤니티, 소개) |
+| `docs/` | MkDocs Material 소스 (홈, 패키지, 문서 허브, 시작하기, 로드맵, 커뮤니티, 소개) |
 | `mkdocs.yml` | 사이트 설정 및 내비게이션 |
 | `.github/workflows/docs.yml` | GitHub Pages 빌드/배포 (다른 cubrid-lab 저장소와 동일한 패턴) |
 

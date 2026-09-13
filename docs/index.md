@@ -9,14 +9,23 @@ share of Korean public-sector systems (industry surveys place it around
 lagged: the official Python driver's last release dates back to 2014.
 CUBRID Lab rebuilds that tooling as a modern, tested, documented ecosystem.
 
+## Documentation hub — start with the Python stack
+
+| Documentation | Contents |
+|---|---|
+| [**pycubrid** — DB-API 2.0 driver](https://cubrid-lab.github.io/pycubrid/) | Connections, type mapping, wire protocol, API reference |
+| [**sqlalchemy-cubrid** — SQLAlchemy 2.0 dialect](https://cubrid-lab.github.io/sqlalchemy-cubrid/) | Reflection, MERGE, ENUM, Alembic migrations |
+| [**cubrid-cookbook-python** — examples & templates](https://cubrid-lab.github.io/cubrid-cookbook-python/) | 75 runnable examples, 7 production templates |
+| [**cubrid-mcp-server** — AI agent access](https://cubrid-lab.github.io/cubrid-mcp-server/) | 12 MCP tools, safety whitelist, domain knowledge packs |
+
 ## The Python ecosystem — stable and on PyPI
 
-| Package | What it is | Install |
-|---|---|---|
-| [pycubrid](https://github.com/cubrid-lab/pycubrid) | Pure-Python DB-API 2.0 driver (no C extensions, zero dependencies) | `pip install pycubrid` |
-| [sqlalchemy-cubrid](https://github.com/cubrid-lab/sqlalchemy-cubrid) | SQLAlchemy 2.0 dialect — reflection, MERGE, native ENUM, Alembic | `pip install sqlalchemy-cubrid` |
-| [cubrid-cookbook-python](https://github.com/cubrid-lab/cubrid-cookbook-python) | 75 runnable examples + 7 production templates, verified nightly on live servers | `git clone` |
-| [cubrid-mcp-server](https://github.com/cubrid-lab/cubrid-mcp-server) | The first publicly available CUBRID MCP server — read-only safety whitelist, domain knowledge packs | `uvx cubrid-mcp-server` |
+| Package | What it is | Docs | Install |
+|---|---|---|---|
+| [pycubrid](https://github.com/cubrid-lab/pycubrid) | Pure-Python DB-API 2.0 driver (no C extensions, zero dependencies) | [docs](https://cubrid-lab.github.io/pycubrid/) | `pip install pycubrid` |
+| [sqlalchemy-cubrid](https://github.com/cubrid-lab/sqlalchemy-cubrid) | SQLAlchemy 2.0 dialect — reflection, MERGE, native ENUM, Alembic | [docs](https://cubrid-lab.github.io/sqlalchemy-cubrid/) | `pip install sqlalchemy-cubrid` |
+| [cubrid-cookbook-python](https://github.com/cubrid-lab/cubrid-cookbook-python) | 75 runnable examples + 7 production templates, verified nightly on live servers | [docs](https://cubrid-lab.github.io/cubrid-cookbook-python/) | `git clone` |
+| [cubrid-mcp-server](https://github.com/cubrid-lab/cubrid-mcp-server) | The first publicly available CUBRID MCP server — read-only safety whitelist, domain knowledge packs | [docs](https://cubrid-lab.github.io/cubrid-mcp-server/) | `uvx cubrid-mcp-server` |
 
 ## Why you can trust it
 
@@ -27,18 +36,6 @@ Every change passes an automated quality gate before merge:
 - **95% coverage floor** (CI-enforced), `mypy --strict` with 0 errors
 - **450 merged PRs** and **35 PyPI releases** shipped through this process
 - **MIT licensed**, SPDX SBOM attached to every GitHub Release
-
-## Ecosystem map
-
-| Language | Packages | Status |
-|---|---|---|
-| Python | pycubrid, sqlalchemy-cubrid, cookbook, MCP server | ![stable](https://img.shields.io/badge/status-stable-brightgreen) |
-| Rust | cubrid-rs (protocol, client, tokio, pool), sea-orm-cubrid | ![in progress](https://img.shields.io/badge/status-in%20progress-orange) |
-| Go | cubrid-go (database/sql), gorm-cubrid | ![in progress](https://img.shields.io/badge/status-in%20progress-orange) |
-| TypeScript | cubrid-client, drizzle-cubrid | ![in progress](https://img.shields.io/badge/status-in%20progress-orange) |
-
-See [Packages](packages.md) for the full catalog and [Roadmap](roadmap.md)
-for the maturity matrix.
 
 ## Get started in 30 seconds
 
@@ -56,3 +53,19 @@ conn = pycubrid.connect(
 
 More paths — SQLAlchemy, cookbook examples, MCP — on the
 [Get Started](get-started.md) page.
+
+## Ecosystem map
+
+| Language | Packages | Status |
+|---|---|---|
+| Python | pycubrid, sqlalchemy-cubrid, cookbook, MCP server | ![stable](https://img.shields.io/badge/status-stable-brightgreen) |
+| Rust | cubrid-rs (protocol, client, tokio, pool), sea-orm-cubrid | ![in progress](https://img.shields.io/badge/status-in%20progress-orange) |
+| Go | cubrid-go (database/sql), gorm-cubrid | ![in progress](https://img.shields.io/badge/status-in%20progress-orange) |
+| TypeScript | cubrid-client, drizzle-cubrid | ![in progress](https://img.shields.io/badge/status-in%20progress-orange) |
+
+See [Packages](packages.md) for the full catalog and [Roadmap](roadmap.md)
+for the maturity matrix.
+
+## Next steps
+
+→ [Documentation](documentation.md) · [Get Started](get-started.md) · [Roadmap](roadmap.md)
