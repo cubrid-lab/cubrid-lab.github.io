@@ -8,11 +8,11 @@ sector.
 ## Why this exists
 
 CUBRID powers a significant share of Korean public-sector information
-systems, yet its client ecosystem has historically been thin: the official
-Python driver's final release shipped in 2014, and higher-level integrations
-were sparse. Teams maintaining CUBRID-based systems were effectively locked
-out of the modern data stack — ORMs, web frameworks, analytics tooling, and
-AI agents.
+systems (industry surveys estimate thousands of instances), yet its client
+ecosystem has historically been thin: the official Python driver's final
+release shipped in 2014, and higher-level integrations were sparse. Teams
+maintaining CUBRID-based systems were effectively locked out of the modern
+data stack — ORMs, web frameworks, analytics tooling, and AI agents.
 
 cubrid-lab closes that gap with a complete, tested, documented client
 ecosystem, starting with Python (stable and published) and expanding to
@@ -31,7 +31,5 @@ Rust, Go, and TypeScript.
 
 - **GitHub organization**: [github.com/cubrid-lab](https://github.com/cubrid-lab)
 - **Issues**: per-repository issue trackers (English)
-- **Articles**: see the [Articles](articles/index.md) section for
-  ecosystem retrospectives and technical write-ups
 
 This ecosystem is presented at the 2026 Korean OSS Developer Contest.

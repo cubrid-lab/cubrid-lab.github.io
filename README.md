@@ -12,7 +12,7 @@ organization.
 
 | Path | Purpose |
 |---|---|
-| `docs/` | MkDocs Material source (Home, Packages, Get Started, Articles, Roadmap, Community, About) |
+| `docs/` | MkDocs Material source (Home, Packages, Get Started, Roadmap, Community, About) |
 | `mkdocs.yml` | Site configuration and navigation |
 | `.github/workflows/docs.yml` | GitHub Pages build & deploy (same pattern as all cubrid-lab repos) |
 
@@ -32,8 +32,8 @@ mkdocs build --strict
 
 ## Content policy
 
-- **English-first**: canonical content is English; Korean articles live under
-  `docs/articles/.../ko.md` with an English summary companion (`index.md`).
+- **English-first**: canonical content is English; Korean translations follow
+  the org-wide `README.ko.md` sync pattern.
 - **No AI-authorship narrative**: public content describes the verification
   system (tests, CI gates), not who or what authored the code.
 - **Metrics hygiene**: numbers are sourced from the verified metrics snapshot
@@ -49,4 +49,4 @@ across all cubrid-lab repositories.
 
 ## License
 
-[MIT](LICENSE) — same as every cubrid-lab repository.
+[MIT](LICENSE) — matching the stable cubrid-lab packages.

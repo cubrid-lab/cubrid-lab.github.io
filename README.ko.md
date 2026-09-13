@@ -10,7 +10,7 @@
 
 | 경로 | 용도 |
 |---|---|
-| `docs/` | MkDocs Material 소스 (홈, 패키지, 시작하기, 아티클, 로드맵, 커뮤니티, 소개) |
+| `docs/` | MkDocs Material 소스 (홈, 패키지, 시작하기, 로드맵, 커뮤니티, 소개) |
 | `mkdocs.yml` | 사이트 설정 및 내비게이션 |
 | `.github/workflows/docs.yml` | GitHub Pages 빌드/배포 (다른 cubrid-lab 저장소와 동일한 패턴) |
 
@@ -30,8 +30,8 @@ mkdocs build --strict
 
 ## 콘텐츠 정책
 
-- **영어 우선**: 원문은 영어이며, 한국어 아티클은 `docs/articles/.../ko.md`에
-  영어 요약(`index.md`)과 함께 배치한다.
+- **영어 우선**: 원문은 영어이며, 한국어 번역은 조직 공통
+  `README.ko.md` 동기화 패턴을 따른다.
 - **AI 저작 서술 금지**: 공개 콘텐츠는 검증 시스템(테스트, CI 게이트)을
   설명하며, 코드를 누가/무엇이 작성했는지에 대한 서술은 포함하지 않는다.
 - **수치 위생**: 숫자는 검증된 메트릭 스냅샷에서 가져오고 릴리스 시점에
@@ -46,4 +46,4 @@ mkdocs build --strict
 
 ## 라이선스
 
-[MIT](LICENSE) — 모든 cubrid-lab 저장소와 동일하다.
+[MIT](LICENSE) — 안정화된 cubrid-lab 패키지들과 동일하다.

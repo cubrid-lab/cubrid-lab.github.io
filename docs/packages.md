@@ -1,7 +1,7 @@
 # Packages
 
 All repositories live in the [cubrid-lab](https://github.com/cubrid-lab)
-organization. Everything is MIT licensed.
+organization. The stable Python packages are MIT licensed.
 
 ## Python — stable, on PyPI
 

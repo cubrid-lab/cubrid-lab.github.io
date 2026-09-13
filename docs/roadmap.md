@@ -42,5 +42,5 @@ Current verified optimizations (documented, reproducible via
 | Bulk insert (1,000 rows) | 12.3% faster |
 | Query select-all | 19.9% faster |
 
-Further driver-level optimization is tracked per-repository in the
-[CUBRID Ecosystem Roadmap project board](https://github.com/orgs/cubrid-lab/projects/2).
+Further driver-level optimization is tracked in each repository's issue
+tracker and milestones (e.g. [pycubrid milestones](https://github.com/cubrid-lab/pycubrid/milestones)).

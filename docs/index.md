@@ -3,10 +3,11 @@
 **Open-source client ecosystem for CUBRID** — mature Python packages published
 on PyPI, with Rust, Go, and TypeScript clients in active development.
 
-CUBRID is an Apache-2.0 licensed open-source RDBMS, widely adopted in the
-Korean public sector. Yet for years its client tooling lagged: the official
-Python driver's last release dates back to 2014. CUBRID Lab rebuilds that
-tooling as a modern, tested, documented ecosystem.
+CUBRID is an Apache-2.0 licensed open-source RDBMS used across a large
+share of Korean public-sector systems (industry surveys place it around
+10% of public-sector DBMS instances). Yet for years its client tooling
+lagged: the official Python driver's last release dates back to 2014.
+CUBRID Lab rebuilds that tooling as a modern, tested, documented ecosystem.
 
 ## The Python ecosystem — stable and on PyPI
 

@@ -21,8 +21,8 @@ Every cubrid-lab repository follows the same development cycle:
   pattern) with CI-enforced synchronization.
 - **Commits**: [Conventional Commits](https://www.conventionalcommits.org/)
   (`feat:`, `fix:`, `docs:`, `chore:`, `ci:`, `test:`, `refactor:`).
-- **Licensing**: all repositories are MIT with `THIRD_PARTY_LICENSES.md`,
-  NOTICE, and SPDX SBOMs attached to releases.
+- **Licensing**: the stable Python packages are MIT licensed with
+  `THIRD_PARTY_LICENSES.md`, NOTICE, and SPDX SBOMs attached to releases.
 
 ## Ways to contribute
 
