@@ -5,12 +5,45 @@ its repository. This page is the hub — start with the stable Python stack.
 
 ## Python — stable
 
-| Package | Documentation | What's inside |
-|---|---|---|
-| **pycubrid** | [cubrid-lab.github.io/pycubrid](https://cubrid-lab.github.io/pycubrid/) | Connection strings, type mapping, CAS wire protocol reference, API reference |
-| **sqlalchemy-cubrid** | [cubrid-lab.github.io/sqlalchemy-cubrid](https://cubrid-lab.github.io/sqlalchemy-cubrid/) | Dialect setup, reflection, MERGE/ENUM behavior, Alembic migrations |
-| **cubrid-cookbook-python** | [cubrid-lab.github.io/cubrid-cookbook-python](https://cubrid-lab.github.io/cubrid-cookbook-python/) | 75 runnable examples, 7 production templates, nightly golden-test pipeline |
-| **cubrid-mcp-server** | [cubrid-lab.github.io/cubrid-mcp-server](https://cubrid-lab.github.io/cubrid-mcp-server/) | 12 MCP tools, read-only safety whitelist, domain knowledge packs, expert prompts |
+<div class="grid cards" markdown>
+
+-   :material-database:{ .lg .middle } **pycubrid**
+
+    ---
+
+    Connection strings, type mapping, CAS wire protocol reference,
+    complete API reference.
+
+    [:octicons-arrow-right-24: cubrid-lab.github.io/pycubrid](https://cubrid-lab.github.io/pycubrid/)
+
+-   :material-layers-triple:{ .lg .middle } **sqlalchemy-cubrid**
+
+    ---
+
+    Dialect setup, schema reflection, MERGE/ENUM behavior,
+    Alembic migrations.
+
+    [:octicons-arrow-right-24: cubrid-lab.github.io/sqlalchemy-cubrid](https://cubrid-lab.github.io/sqlalchemy-cubrid/)
+
+-   :material-book-open-variant:{ .lg .middle } **cubrid-cookbook-python**
+
+    ---
+
+    75 runnable examples, 7 production templates, nightly
+    golden-test pipeline.
+
+    [:octicons-arrow-right-24: cubrid-lab.github.io/cubrid-cookbook-python](https://cubrid-lab.github.io/cubrid-cookbook-python/)
+
+-   :material-robot:{ .lg .middle } **cubrid-mcp-server**
+
+    ---
+
+    12 MCP tools, read-only safety whitelist, domain knowledge packs,
+    expert prompts.
+
+    [:octicons-arrow-right-24: cubrid-lab.github.io/cubrid-mcp-server](https://cubrid-lab.github.io/cubrid-mcp-server/)
+
+</div>
 
 ## Rust / Go / TypeScript — in progress
 
