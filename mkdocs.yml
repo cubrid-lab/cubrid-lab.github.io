@@ -10,6 +10,8 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
+  logo: https://raw.githubusercontent.com/cubrid-lab/brand/8aa81b79f00ae936b03a9546f14f514c5e2554a7/dist/organization/mark.svg
+  favicon: https://raw.githubusercontent.com/cubrid-lab/brand/8aa81b79f00ae936b03a9546f14f514c5e2554a7/dist/organization/mark.svg
   features:
     - navigation.tabs
     - navigation.sections
