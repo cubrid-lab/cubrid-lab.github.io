@@ -1,5 +1,7 @@
 # Contributing
 
+**Issue title policy:** use type-only `feat:`, `bug:`, etc. with observable acceptance criteria. PR and commit messages follow local Conventional Commits rules. Separate issue triage from PR CI; see [organization standard](https://github.com/cubrid-lab/.github/blob/main/docs/ISSUE_PR_COMMIT_STANDARD.md).
+
 Use a focused pull request with a clear purpose, changed files, validation
 evidence and any required documentation updates. Human contributors and
 all AI-assisted implementations follow the same review criteria.
