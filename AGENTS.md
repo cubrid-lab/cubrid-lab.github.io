@@ -34,6 +34,15 @@ remain unchanged.
 
 ## Human-readable communication (all agents)
 
+The canonical rule is section 6 of the organization standard,
+[Explanations in code, tests, reviews and agent-written text](https://github.com/cubrid-lab/.github/blob/main/docs/ISSUE_PR_COMMIT_STANDARD.md#6-explanations-in-code-tests-reviews-and-agent-written-text).
+On this site it applies to page copy, page titles, link text, change notes
+and agent-written PR descriptions and review replies: say what a visitor or
+maintainer needs to know and why before any issue number or internal label.
+This repository's publishing, URL, security and licensing rules keep
+precedence; do not rename pages or change URLs only to improve wording. The
+notes below are the local application of that rule.
+
 Use this rule for text authored or edited by Codex, Claude Code, OpenCode,
 ChatGPT, Copilot, or any other agent. It applies to issues, PRs, reviews,
 comments, checklists, status updates, commit summaries, release notes,
