@@ -37,7 +37,7 @@ Python driver died in 2014. We rebuilt the entire stack.
     ---
 
     SQLAlchemy 2.0 dialect — schema reflection, `MERGE`, native `ENUM`,
-    Alembic migrations. Official SA test suite integrated.
+    Alembic migrations. Official SQLAlchemy test suite integrated.
 
     [:octicons-arrow-right-24: Documentation](https://cubrid-lab.github.io/sqlalchemy-cubrid/)
     · [:octicons-mark-github-16:](https://github.com/cubrid-lab/sqlalchemy-cubrid)
