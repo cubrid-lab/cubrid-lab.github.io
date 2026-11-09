@@ -1,8 +1,8 @@
 # AGENTS.md
 
-## Shared issue, PR, and commit standard
+## Issue and PR guidance for the documentation site
 
-See the [cubrid-lab organization standard](https://github.com/cubrid-lab/.github/blob/main/docs/ISSUE_PR_COMMIT_STANDARD.md). Issue titles use only a type prefix (`feat:`, `bug:`, `docs:`, etc.), not a required module scope. Describe the human-readable goal or observed defect, relevant evidence and verifiable acceptance criteria. Triage determines validity, duplication, scope, priority and size; PR and commit titles retain the existing Conventional Commits requirements and CI. Avoid personal comments, opaque internal IDs and agent narration.
+See the [local contributor guide](CONTRIBUTING.md). Issue titles use only a type prefix (`feat:`, `bug:`, `docs:`, etc.), not a required module scope. Describe the human-readable goal or observed defect, relevant evidence and verifiable acceptance criteria. Triage determines validity, duplication, scope, priority and size; PR and commit titles retain the existing Conventional Commits requirements and CI. Avoid personal comments, opaque internal IDs and agent narration.
 
 
 ## Scope
@@ -34,8 +34,7 @@ remain unchanged.
 
 ## Human-readable communication (all agents)
 
-The canonical rule is section 6 of the organization standard,
-[Explanations in code, tests, reviews and agent-written text](https://github.com/cubrid-lab/.github/blob/main/docs/ISSUE_PR_COMMIT_STANDARD.md#6-explanations-in-code-tests-reviews-and-agent-written-text).
+For this site, use the human-readable communication rule below.
 On this site it applies to page copy, page titles, link text, change notes
 and agent-written PR descriptions and review replies: say what a visitor or
 maintainer needs to know and why before any issue number or internal label.
@@ -71,7 +70,7 @@ documentation, presentations, and other maintainer-facing writing.
   separate lookup table. Edit an existing editable comment to correct unclear
   wording rather than adding redundant follow-up comments.
 
-This is a shared writing convention, not a new CI check, reviewer approval,
+This is a local writing convention, not a new CI check, reviewer approval,
 or merge gate. Keep existing repository-specific technical and safety rules.
 
 ## Repository-specific issue and PR evidence
